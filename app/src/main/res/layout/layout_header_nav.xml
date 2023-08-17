@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:gravity="bottom"
+    android:padding="15dp"
+    android:background="@drawable/background_nav_header">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/user_img"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xin chào,"
+            android:textSize="17dp"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/txtHeaderUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/txtHeaderEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="admin@fpt.edu.vn"
+            android:textColor="@color/white"
+            />
+
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

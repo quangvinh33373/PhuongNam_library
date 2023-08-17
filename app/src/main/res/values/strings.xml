@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Phương Nam Library</string>
+    <string name="nav_phieumuon">Quản lý phiếu mượn</string>
+    <string name="nav_loaisach">Quản lý loại sách</string>
+    <string name="nav_sach">Quản lý sách</string>
+    <string name="nav_thanhvien">Quản lý thành viên</string>
+    <string name="nav_thongke">Thống kê</string>
+    <string name="nav_top10">Top 10 sách mượn nhiều nhất</string>
+    <string name="nav_doanhthu">Doanh thu</string>
+    <string name="nav_taikhoan">Tài khoản</string>
+    <string name="nav_matkhau">Đổi mật khẩu</string>
+    <string name="nav_nguoidung">Thêm người dùng</string>
+    <string name="nav_thuthu">Thêm thủ thư</string>
+    <string name="nav_dangxuat">Đăng xuất</string>
+    <string name="nav_thoat">Thoát</string>
+
+    <string name="nav_drawer_open">Open Navigation Drawer</string>
+    <string name="nav_drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/phieuMuon"
+            android:title="@string/nav_phieumuon"
+            android:icon="@drawable/ic_home"/>
+        <item android:id="@+id/loaiSach"
+            android:title="@string/nav_loaisach"
+            android:icon="@drawable/ic_bookmark"/>
+        <item android:id="@+id/sach"
+            android:title="@string/nav_sach"
+            android:icon="@drawable/ic_book"/>
+        <item android:id="@+id/thanhVien"
+            android:title="@string/nav_thanhvien"
+            android:icon="@drawable/ic_person"/>
+    </group>
+
+    <item android:title="@string/nav_thongke">
+        <menu>
+            <item android:id="@+id/top10"
+                android:title="@string/nav_top10"
+                android:icon="@drawable/ic_chart"/>
+            <item android:id="@+id/doanhThu"
+                android:title="@string/nav_doanhthu"
+                android:icon="@drawable/ic_money"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_taikhoan">
+        <menu>
+            <item android:id="@+id/doiMatKhau"
+                android:title="@string/nav_matkhau"
+                android:icon="@drawable/ic_lock"/>
+            <item android:id="@+id/themNguoiDung"
+                android:title="@string/nav_nguoidung"
+                android:icon="@drawable/ic_add_person"/>
+            <item android:id="@+id/themThuThu"
+                android:title="@string/nav_thuthu"
+                android:icon="@drawable/ic_add_person"/>
+            <item android:id="@+id/dangXuat"
+                android:title="@string/nav_dangxuat"
+                android:icon="@drawable/ic_logout"/>
+            <item android:id="@+id/thoat"
+                android:title="@string/nav_thoat"
+                android:icon="@drawable/ic_exit"/>
+        </menu>
+    </item>
+</menu>
